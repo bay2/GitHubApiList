@@ -1,39 +1,41 @@
-
-excluded:
-- GitHubApiListTests
-- GitHubApiListUITests
-
 disabled_rules:
-- trailing_whitespace
-- type_name
-- todo
-- cyclomatic_complexity
-- vertical_whitespace
-- trailing_comma
-- nesting
-- mark
-- large_tuple
-- discouraged_optional_collection
-- trailing_newline
+  - trailing_whitespace
+  - type_name
+  - todo
+  - cyclomatic_complexity
+  - vertical_whitespace
+  - trailing_comma
+  - nesting
+  - mark
+  - large_tuple
+  - discouraged_optional_collection
+  - trailing_newline
 
 opt_in_rules:
-- prohibited_super_call
-- overridden_super_call
-- private_outlet
-- private_action
-- private_over_fileprivate
-- anyobject_protocol
-- closure_spacing
-- contains_over_first_not_nil
-- first_where
-- implicit_return
-- joined_default_parameter
-- operator_usage_whitespace
-- redundant_nil_coalescing
-- redundant_type_annotation
+  - prohibited_super_call
+  - overridden_super_call
+  - private_outlet
+  - private_action
+  - private_over_fileprivate
+  - anyobject_protocol
+  - closure_spacing
+  - contains_over_first_not_nil
+  - first_where
+  - implicit_return
+  - joined_default_parameter
+  - operator_usage_whitespace
+  - redundant_nil_coalescing
+  - redundant_type_annotation
 
 file_length:
-- 500
-- 1300
+  - 500
+  - 1300
 
 line_length: 300
+
+included:
+  - GitHubApiList
+
+excluded:
+  - GitHubApiListTests
+  - GitHubApiListUITests

@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23602F27259246AC0051CDEE /* ApiListCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F26259246AC0051CDEE /* ApiListCellVM.swift */; };
+		23602F3025924BFE0051CDEE /* githubapi.json in Resources */ = {isa = PBXBuildFile; fileRef = 23602F2F25924BFE0051CDEE /* githubapi.json */; };
+		23602F38259258910051CDEE /* PublishRelayWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F37259258910051CDEE /* PublishRelayWrap.swift */; };
 		23B142182591EAE3007B2F07 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 23B142172591EAE3007B2F07 /* SwiftyJSON */; };
+		23B142322591EF4F007B2F07 /* HttpApiDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1422C2591EF4F007B2F07 /* HttpApiDefines.swift */; };
+		23B142332591EF4F007B2F07 /* DispatchQueueDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1422D2591EF4F007B2F07 /* DispatchQueueDefines.swift */; };
+		23B142342591EF4F007B2F07 /* ApiListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1422F2591EF4F007B2F07 /* ApiListVM.swift */; };
+		23B142352591EF4F007B2F07 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B142312591EF4F007B2F07 /* NSObject+Rx.swift */; };
+		23B1423B25923CE2007B2F07 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 23B1423A25923CE2007B2F07 /* OHHTTPStubsSwift */; };
+		23B1423D25923CE2007B2F07 /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 23B1423C25923CE2007B2F07 /* OHHTTPStubs */; };
+		23B1424325923D5E007B2F07 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 23B1424225923D5E007B2F07 /* Nimble */; };
+		23B1424925923DDF007B2F07 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 23B1424825923DDF007B2F07 /* Quick */; };
 		23C697652591DA4A00E3B667 /* RealmStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 23C697642591DA4A00E3B667 /* RealmStorage */; };
 		23C697672591DA4A00E3B667 /* RealmObjectStore in Frameworks */ = {isa = PBXBuildFile; productRef = 23C697662591DA4A00E3B667 /* RealmObjectStore */; };
 		23C697692591DA4A00E3B667 /* RealmQueryParser in Frameworks */ = {isa = PBXBuildFile; productRef = 23C697682591DA4A00E3B667 /* RealmQueryParser */; };
@@ -19,6 +30,8 @@
 		23C697822591DB6C00E3B667 /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 23C697812591DB6C00E3B667 /* RxAlamofire */; };
 		23C697882591DBB800E3B667 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 23C697872591DBB800E3B667 /* RxDataSources */; };
 		23C6978A2591DBB800E3B667 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 23C697892591DBB800E3B667 /* Differentiator */; };
+		23D40EF02592406900BA3CD4 /* ApiListVMTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D40EEF2592406900BA3CD4 /* ApiListVMTest.swift */; };
+		23D40EF72592416900BA3CD4 /* ApiInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D40EF62592416900BA3CD4 /* ApiInfoModel.swift */; };
 		23DCD2512591D4C6009FE7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCD2502591D4C6009FE7A6 /* AppDelegate.swift */; };
 		23DCD2532591D4C6009FE7A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCD2522591D4C6009FE7A6 /* SceneDelegate.swift */; };
 		23DCD2552591D4C6009FE7A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCD2542591D4C6009FE7A6 /* ViewController.swift */; };
@@ -51,6 +64,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23602F26259246AC0051CDEE /* ApiListCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiListCellVM.swift; sourceTree = "<group>"; };
+		23602F2F25924BFE0051CDEE /* githubapi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = githubapi.json; sourceTree = "<group>"; };
+		23602F37259258910051CDEE /* PublishRelayWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishRelayWrap.swift; sourceTree = "<group>"; };
+		23B1422C2591EF4F007B2F07 /* HttpApiDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpApiDefines.swift; sourceTree = "<group>"; };
+		23B1422D2591EF4F007B2F07 /* DispatchQueueDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueDefines.swift; sourceTree = "<group>"; };
+		23B1422F2591EF4F007B2F07 /* ApiListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiListVM.swift; sourceTree = "<group>"; };
+		23B142312591EF4F007B2F07 /* NSObject+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Rx.swift"; sourceTree = "<group>"; };
+		23D40EEF2592406900BA3CD4 /* ApiListVMTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiListVMTest.swift; sourceTree = "<group>"; };
+		23D40EF62592416900BA3CD4 /* ApiInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiInfoModel.swift; sourceTree = "<group>"; };
 		23DCD24D2591D4C6009FE7A6 /* GitHubApiList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApiList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DCD2502591D4C6009FE7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23DCD2522591D4C6009FE7A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +117,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B1424325923D5E007B2F07 /* Nimble in Frameworks */,
+				23B1423B25923CE2007B2F07 /* OHHTTPStubsSwift in Frameworks */,
+				23B1424925923DDF007B2F07 /* Quick in Frameworks */,
+				23B1423D25923CE2007B2F07 /* OHHTTPStubs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +134,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23602F2E25924BFE0051CDEE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				23602F2F25924BFE0051CDEE /* githubapi.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		23B1422B2591EF4F007B2F07 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				23B1422C2591EF4F007B2F07 /* HttpApiDefines.swift */,
+				23B1422D2591EF4F007B2F07 /* DispatchQueueDefines.swift */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		23B1422E2591EF4F007B2F07 /* ApiList */ = {
+			isa = PBXGroup;
+			children = (
+				23D40EF52592414100BA3CD4 /* Model */,
+				23D40EF4259240FA00BA3CD4 /* ViewModel */,
+			);
+			path = ApiList;
+			sourceTree = "<group>";
+		};
+		23B142302591EF4F007B2F07 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				23B142312591EF4F007B2F07 /* NSObject+Rx.swift */,
+				23602F37259258910051CDEE /* PublishRelayWrap.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		23D40EF4259240FA00BA3CD4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				23B1422F2591EF4F007B2F07 /* ApiListVM.swift */,
+				23602F26259246AC0051CDEE /* ApiListCellVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		23D40EF52592414100BA3CD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23D40EF62592416900BA3CD4 /* ApiInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		23DCD2442591D4C6009FE7A6 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +209,9 @@
 		23DCD24F2591D4C6009FE7A6 /* GitHubApiList */ = {
 			isa = PBXGroup;
 			children = (
+				23B1422E2591EF4F007B2F07 /* ApiList */,
+				23B1422B2591EF4F007B2F07 /* Defines */,
+				23B142302591EF4F007B2F07 /* Tools */,
 				23DCD2502591D4C6009FE7A6 /* AppDelegate.swift */,
 				23DCD2522591D4C6009FE7A6 /* SceneDelegate.swift */,
 				23DCD2542591D4C6009FE7A6 /* ViewController.swift */,
@@ -145,8 +226,10 @@
 		23DCD2662591D4C7009FE7A6 /* GitHubApiListTests */ = {
 			isa = PBXGroup;
 			children = (
+				23602F2E25924BFE0051CDEE /* JSON */,
 				23DCD2672591D4C7009FE7A6 /* GitHubApiListTests.swift */,
 				23DCD2692591D4C7009FE7A6 /* Info.plist */,
+				23D40EEF2592406900BA3CD4 /* ApiListVMTest.swift */,
 			);
 			path = GitHubApiListTests;
 			sourceTree = "<group>";
@@ -213,6 +296,12 @@
 				23DCD2652591D4C7009FE7A6 /* PBXTargetDependency */,
 			);
 			name = GitHubApiListTests;
+			packageProductDependencies = (
+				23B1423A25923CE2007B2F07 /* OHHTTPStubsSwift */,
+				23B1423C25923CE2007B2F07 /* OHHTTPStubs */,
+				23B1424225923D5E007B2F07 /* Nimble */,
+				23B1424825923DDF007B2F07 /* Quick */,
+			);
 			productName = GitHubApiListTests;
 			productReference = 23DCD2632591D4C7009FE7A6 /* GitHubApiListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -275,6 +364,9 @@
 				23C697802591DB6C00E3B667 /* XCRemoteSwiftPackageReference "RxAlamofire" */,
 				23C697862591DBB800E3B667 /* XCRemoteSwiftPackageReference "RxDataSources" */,
 				23B142162591EAE3007B2F07 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				23B1423925923CE2007B2F07 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+				23B1424125923D5E007B2F07 /* XCRemoteSwiftPackageReference "Nimble" */,
+				23B1424725923DDF007B2F07 /* XCRemoteSwiftPackageReference "Quick" */,
 			);
 			productRefGroup = 23DCD24E2591D4C6009FE7A6 /* Products */;
 			projectDirPath = "";
@@ -302,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23602F3025924BFE0051CDEE /* githubapi.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +432,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23602F27259246AC0051CDEE /* ApiListCellVM.swift in Sources */,
+				23B142332591EF4F007B2F07 /* DispatchQueueDefines.swift in Sources */,
 				23DCD2552591D4C6009FE7A6 /* ViewController.swift in Sources */,
+				23602F38259258910051CDEE /* PublishRelayWrap.swift in Sources */,
 				23DCD2512591D4C6009FE7A6 /* AppDelegate.swift in Sources */,
+				23B142342591EF4F007B2F07 /* ApiListVM.swift in Sources */,
+				23D40EF72592416900BA3CD4 /* ApiInfoModel.swift in Sources */,
 				23DCD2532591D4C6009FE7A6 /* SceneDelegate.swift in Sources */,
+				23B142322591EF4F007B2F07 /* HttpApiDefines.swift in Sources */,
+				23B142352591EF4F007B2F07 /* NSObject+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23DCD2682591D4C7009FE7A6 /* GitHubApiListTests.swift in Sources */,
+				23D40EF02592406900BA3CD4 /* ApiListVMTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +627,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sim.GitHubApiList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -544,7 +645,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sim.GitHubApiList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -678,6 +779,30 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		23B1423925923CE2007B2F07 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		23B1424125923D5E007B2F07 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		23B1424725923DDF007B2F07 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		23C697632591DA4A00E3B667 /* XCRemoteSwiftPackageReference "realm-core" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-core.git";
@@ -741,6 +866,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 23B142162591EAE3007B2F07 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		23B1423A25923CE2007B2F07 /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23B1423925923CE2007B2F07 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
+		};
+		23B1423C25923CE2007B2F07 /* OHHTTPStubs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23B1423925923CE2007B2F07 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubs;
+		};
+		23B1424225923D5E007B2F07 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23B1424125923D5E007B2F07 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		23B1424825923DDF007B2F07 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23B1424725923DDF007B2F07 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
 		};
 		23C697642591DA4A00E3B667 /* RealmStorage */ = {
 			isa = XCSwiftPackageProductDependency;
