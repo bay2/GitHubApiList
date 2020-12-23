@@ -76,4 +76,18 @@ extension ApiInfoModel {
         
     }
     
+    class func clearData() {
+        
+        if let realm = try? Realm() {
+            
+            realm.refresh()
+            
+            try? realm.write {
+                realm.delete(realm.objects(ApiInfoModel.self))
+            }
+            
+        }
+        
+    }
+    
 }
