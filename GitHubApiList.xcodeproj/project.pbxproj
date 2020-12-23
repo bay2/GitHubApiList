@@ -16,6 +16,15 @@
 		23602F5D2592E4ED0051CDEE /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F5C2592E4ED0051CDEE /* UITableViewExtensions.swift */; };
 		23A7156C2592F129009F40B1 /* ApiListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7156B2592F129009F40B1 /* ApiListCell.swift */; };
 		23A715712592F198009F40B1 /* DataSourceCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A715702592F198009F40B1 /* DataSourceCellType.swift */; };
+		23A7157625932BE8009F40B1 /* Session+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7157525932BE8009F40B1 /* Session+Rx.swift */; };
+		23A7157D25932EF2009F40B1 /* ApiRequestLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7157C25932EF2009F40B1 /* ApiRequestLog.swift */; };
+		23A71585259335A1009F40B1 /* ApiQequestLogTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A71584259335A1009F40B1 /* ApiQequestLogTest.swift */; };
+		23A7158A2593391B009F40B1 /* ApiRequestLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A715892593391B009F40B1 /* ApiRequestLogVC.swift */; };
+		23A71593259339A5009F40B1 /* ApiRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A71592259339A5009F40B1 /* ApiRequestCell.swift */; };
+		23A7159D25933C3B009F40B1 /* ApiRequestCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7159C25933C3B009F40B1 /* ApiRequestCellVM.swift */; };
+		23A715A525933DE7009F40B1 /* DateExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A715A425933DE7009F40B1 /* DateExtenstions.swift */; };
+		23A715AA25933E78009F40B1 /* ApiRequestLogVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A715A925933E78009F40B1 /* ApiRequestLogVM.swift */; };
+		23A715BE25934388009F40B1 /* SessionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A715BD25934388009F40B1 /* SessionAdapter.swift */; };
 		23B142182591EAE3007B2F07 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 23B142172591EAE3007B2F07 /* SwiftyJSON */; };
 		23B142322591EF4F007B2F07 /* HttpApiDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1422C2591EF4F007B2F07 /* HttpApiDefines.swift */; };
 		23B142332591EF4F007B2F07 /* DispatchQueueDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1422D2591EF4F007B2F07 /* DispatchQueueDefines.swift */; };
@@ -79,6 +88,15 @@
 		23602F5C2592E4ED0051CDEE /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
 		23A7156B2592F129009F40B1 /* ApiListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiListCell.swift; sourceTree = "<group>"; };
 		23A715702592F198009F40B1 /* DataSourceCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceCellType.swift; sourceTree = "<group>"; };
+		23A7157525932BE8009F40B1 /* Session+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+Rx.swift"; sourceTree = "<group>"; };
+		23A7157C25932EF2009F40B1 /* ApiRequestLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestLog.swift; sourceTree = "<group>"; };
+		23A71584259335A1009F40B1 /* ApiQequestLogTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiQequestLogTest.swift; sourceTree = "<group>"; };
+		23A715892593391B009F40B1 /* ApiRequestLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestLogVC.swift; sourceTree = "<group>"; };
+		23A71592259339A5009F40B1 /* ApiRequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestCell.swift; sourceTree = "<group>"; };
+		23A7159C25933C3B009F40B1 /* ApiRequestCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestCellVM.swift; sourceTree = "<group>"; };
+		23A715A425933DE7009F40B1 /* DateExtenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtenstions.swift; sourceTree = "<group>"; };
+		23A715A925933E78009F40B1 /* ApiRequestLogVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestLogVM.swift; sourceTree = "<group>"; };
+		23A715BD25934388009F40B1 /* SessionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionAdapter.swift; sourceTree = "<group>"; };
 		23B1422C2591EF4F007B2F07 /* HttpApiDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpApiDefines.swift; sourceTree = "<group>"; };
 		23B1422D2591EF4F007B2F07 /* DispatchQueueDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueDefines.swift; sourceTree = "<group>"; };
 		23B1422F2591EF4F007B2F07 /* ApiListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiListVM.swift; sourceTree = "<group>"; };
@@ -181,6 +199,50 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		23A7157A25932E9A009F40B1 /* ApiQequstList */ = {
+			isa = PBXGroup;
+			children = (
+				23A7159B25933C21009F40B1 /* VM */,
+				23A71597259339AF009F40B1 /* Cell */,
+				23A7158E25933922009F40B1 /* VC */,
+				23A7157B25932EB5009F40B1 /* Model */,
+			);
+			path = ApiQequstList;
+			sourceTree = "<group>";
+		};
+		23A7157B25932EB5009F40B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23A7157C25932EF2009F40B1 /* ApiRequestLog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23A7158E25933922009F40B1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				23A715892593391B009F40B1 /* ApiRequestLogVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		23A71597259339AF009F40B1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				23A71592259339A5009F40B1 /* ApiRequestCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		23A7159B25933C21009F40B1 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				23A7159C25933C3B009F40B1 /* ApiRequestCellVM.swift */,
+				23A715A925933E78009F40B1 /* ApiRequestLogVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
 		23B1422B2591EF4F007B2F07 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +269,9 @@
 				23B142312591EF4F007B2F07 /* NSObject+Rx.swift */,
 				23602F37259258910051CDEE /* PublishRelayWrap.swift */,
 				23602F5C2592E4ED0051CDEE /* UITableViewExtensions.swift */,
+				23A7157525932BE8009F40B1 /* Session+Rx.swift */,
+				23A715A425933DE7009F40B1 /* DateExtenstions.swift */,
+				23A715BD25934388009F40B1 /* SessionAdapter.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -251,6 +316,7 @@
 		23DCD24F2591D4C6009FE7A6 /* GitHubApiList */ = {
 			isa = PBXGroup;
 			children = (
+				23A7157A25932E9A009F40B1 /* ApiQequstList */,
 				23602F4B2592E1900051CDEE /* DataSourceAdapter */,
 				23B1422E2591EF4F007B2F07 /* ApiList */,
 				23B1422B2591EF4F007B2F07 /* Defines */,
@@ -272,6 +338,7 @@
 				23DCD2672591D4C7009FE7A6 /* GitHubApiListTests.swift */,
 				23DCD2692591D4C7009FE7A6 /* Info.plist */,
 				23D40EEF2592406900BA3CD4 /* ApiListVMTest.swift */,
+				23A71584259335A1009F40B1 /* ApiQequestLogTest.swift */,
 			);
 			path = GitHubApiListTests;
 			sourceTree = "<group>";
@@ -475,6 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A715712592F198009F40B1 /* DataSourceCellType.swift in Sources */,
+				23A715AA25933E78009F40B1 /* ApiRequestLogVM.swift in Sources */,
 				23602F27259246AC0051CDEE /* ApiListCellVM.swift in Sources */,
 				23B142332591EF4F007B2F07 /* DispatchQueueDefines.swift in Sources */,
 				23DCD2552591D4C6009FE7A6 /* ApiListVC.swift in Sources */,
@@ -483,10 +551,17 @@
 				23602F38259258910051CDEE /* PublishRelayWrap.swift in Sources */,
 				23DCD2512591D4C6009FE7A6 /* AppDelegate.swift in Sources */,
 				23602F5D2592E4ED0051CDEE /* UITableViewExtensions.swift in Sources */,
+				23A71593259339A5009F40B1 /* ApiRequestCell.swift in Sources */,
+				23A7157625932BE8009F40B1 /* Session+Rx.swift in Sources */,
+				23A7159D25933C3B009F40B1 /* ApiRequestCellVM.swift in Sources */,
 				23B142342591EF4F007B2F07 /* ApiListVM.swift in Sources */,
 				23602F4D2592E1E80051CDEE /* DataSourceCellVMType.swift in Sources */,
+				23A715A525933DE7009F40B1 /* DateExtenstions.swift in Sources */,
 				23D40EF72592416900BA3CD4 /* ApiInfoModel.swift in Sources */,
 				23DCD2532591D4C6009FE7A6 /* SceneDelegate.swift in Sources */,
+				23A7158A2593391B009F40B1 /* ApiRequestLogVC.swift in Sources */,
+				23A7157D25932EF2009F40B1 /* ApiRequestLog.swift in Sources */,
+				23A715BE25934388009F40B1 /* SessionAdapter.swift in Sources */,
 				23B142322591EF4F007B2F07 /* HttpApiDefines.swift in Sources */,
 				23A7156C2592F129009F40B1 /* ApiListCell.swift in Sources */,
 				23B142352591EF4F007B2F07 /* NSObject+Rx.swift in Sources */,
@@ -497,6 +572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A71585259335A1009F40B1 /* ApiQequestLogTest.swift in Sources */,
 				23DCD2682591D4C7009FE7A6 /* GitHubApiListTests.swift in Sources */,
 				23D40EF02592406900BA3CD4 /* ApiListVMTest.swift in Sources */,
 			);

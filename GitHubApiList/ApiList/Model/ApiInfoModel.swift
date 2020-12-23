@@ -76,6 +76,8 @@ extension ApiInfoModel {
         
     }
     
+    
+    /// 清除数据
     class func clearData() {
         
         if let realm = try? Realm() {

@@ -12,8 +12,6 @@ import Alamofire
 import RxAlamofire
 import SwiftyJSON
 
-
-
 /// API 列页面的 ViewModel
 class ApiListVM {
     
@@ -43,7 +41,7 @@ class ApiListVM {
     func timerFetchDataFromRemote() -> Observable<[ApiListCellVM]> {
         
         Observable<Int>
-            .timer(.seconds(5), period: .seconds(5), scheduler: SerialDispatchQueueScheduler.networkingQequestQ)
+            .timer(.seconds(5), period: .seconds(5), scheduler: SerialDispatchQueueScheduler.networkingRequestQ)
             .flatMap { [weak self] (_) -> Observable<[ApiListCellVM]> in
                 guard let `self` = self else { return Observable.empty() }
                 return self.fetchDataFromRemote()
@@ -55,8 +53,7 @@ class ApiListVM {
     /// 从服务端抓取数据
     /// - Returns: cell viewModel Observable
     func fetchDataFromRemote() -> Observable<[ApiListCellVM]> {
-        RxAlamofire.requestJSON(.get, URL.gitHubApiList)
-            .map { (_, json) -> JSON in JSON(json) }
+        Alamofire.Session.default.rx.requestSwiftyJSON(.get, URL.gitHubApiList)
             .do(onNext: { (json) in
                 ApiInfoModel.writeApiInfo(json: json)
             })
