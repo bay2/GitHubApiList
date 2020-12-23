@@ -10,6 +10,12 @@
 		23602F27259246AC0051CDEE /* ApiListCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F26259246AC0051CDEE /* ApiListCellVM.swift */; };
 		23602F3025924BFE0051CDEE /* githubapi.json in Resources */ = {isa = PBXBuildFile; fileRef = 23602F2F25924BFE0051CDEE /* githubapi.json */; };
 		23602F38259258910051CDEE /* PublishRelayWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F37259258910051CDEE /* PublishRelayWrap.swift */; };
+		23602F472592DD800051CDEE /* DataSourceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F462592DD800051CDEE /* DataSourceAdapter.swift */; };
+		23602F4D2592E1E80051CDEE /* DataSourceCellVMType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F4C2592E1E80051CDEE /* DataSourceCellVMType.swift */; };
+		23602F582592E3010051CDEE /* DataSourceSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F572592E3010051CDEE /* DataSourceSectionType.swift */; };
+		23602F5D2592E4ED0051CDEE /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23602F5C2592E4ED0051CDEE /* UITableViewExtensions.swift */; };
+		23A7156C2592F129009F40B1 /* ApiListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7156B2592F129009F40B1 /* ApiListCell.swift */; };
+		23A715712592F198009F40B1 /* DataSourceCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A715702592F198009F40B1 /* DataSourceCellType.swift */; };
 		23B142182591EAE3007B2F07 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 23B142172591EAE3007B2F07 /* SwiftyJSON */; };
 		23B142322591EF4F007B2F07 /* HttpApiDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1422C2591EF4F007B2F07 /* HttpApiDefines.swift */; };
 		23B142332591EF4F007B2F07 /* DispatchQueueDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1422D2591EF4F007B2F07 /* DispatchQueueDefines.swift */; };
@@ -34,7 +40,7 @@
 		23D40EF72592416900BA3CD4 /* ApiInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D40EF62592416900BA3CD4 /* ApiInfoModel.swift */; };
 		23DCD2512591D4C6009FE7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCD2502591D4C6009FE7A6 /* AppDelegate.swift */; };
 		23DCD2532591D4C6009FE7A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCD2522591D4C6009FE7A6 /* SceneDelegate.swift */; };
-		23DCD2552591D4C6009FE7A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCD2542591D4C6009FE7A6 /* ViewController.swift */; };
+		23DCD2552591D4C6009FE7A6 /* ApiListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCD2542591D4C6009FE7A6 /* ApiListVC.swift */; };
 		23DCD2582591D4C6009FE7A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DCD2562591D4C6009FE7A6 /* Main.storyboard */; };
 		23DCD25A2591D4C7009FE7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DCD2592591D4C7009FE7A6 /* Assets.xcassets */; };
 		23DCD25D2591D4C7009FE7A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DCD25B2591D4C7009FE7A6 /* LaunchScreen.storyboard */; };
@@ -67,6 +73,12 @@
 		23602F26259246AC0051CDEE /* ApiListCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiListCellVM.swift; sourceTree = "<group>"; };
 		23602F2F25924BFE0051CDEE /* githubapi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = githubapi.json; sourceTree = "<group>"; };
 		23602F37259258910051CDEE /* PublishRelayWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishRelayWrap.swift; sourceTree = "<group>"; };
+		23602F462592DD800051CDEE /* DataSourceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceAdapter.swift; sourceTree = "<group>"; };
+		23602F4C2592E1E80051CDEE /* DataSourceCellVMType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceCellVMType.swift; sourceTree = "<group>"; };
+		23602F572592E3010051CDEE /* DataSourceSectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceSectionType.swift; sourceTree = "<group>"; };
+		23602F5C2592E4ED0051CDEE /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		23A7156B2592F129009F40B1 /* ApiListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiListCell.swift; sourceTree = "<group>"; };
+		23A715702592F198009F40B1 /* DataSourceCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceCellType.swift; sourceTree = "<group>"; };
 		23B1422C2591EF4F007B2F07 /* HttpApiDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpApiDefines.swift; sourceTree = "<group>"; };
 		23B1422D2591EF4F007B2F07 /* DispatchQueueDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueDefines.swift; sourceTree = "<group>"; };
 		23B1422F2591EF4F007B2F07 /* ApiListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiListVM.swift; sourceTree = "<group>"; };
@@ -76,7 +88,7 @@
 		23DCD24D2591D4C6009FE7A6 /* GitHubApiList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApiList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DCD2502591D4C6009FE7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23DCD2522591D4C6009FE7A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23DCD2542591D4C6009FE7A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23DCD2542591D4C6009FE7A6 /* ApiListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiListVC.swift; sourceTree = "<group>"; };
 		23DCD2572591D4C6009FE7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23DCD2592591D4C7009FE7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23DCD25C2591D4C7009FE7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -142,6 +154,33 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		23602F3F2592DAE20051CDEE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				23DCD2542591D4C6009FE7A6 /* ApiListVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		23602F4B2592E1900051CDEE /* DataSourceAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				23602F462592DD800051CDEE /* DataSourceAdapter.swift */,
+				23602F4C2592E1E80051CDEE /* DataSourceCellVMType.swift */,
+				23602F572592E3010051CDEE /* DataSourceSectionType.swift */,
+				23A715702592F198009F40B1 /* DataSourceCellType.swift */,
+			);
+			path = DataSourceAdapter;
+			sourceTree = "<group>";
+		};
+		23A715672592F0F9009F40B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23A7156B2592F129009F40B1 /* ApiListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		23B1422B2591EF4F007B2F07 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +193,8 @@
 		23B1422E2591EF4F007B2F07 /* ApiList */ = {
 			isa = PBXGroup;
 			children = (
+				23A715672592F0F9009F40B1 /* View */,
+				23602F3F2592DAE20051CDEE /* VC */,
 				23D40EF52592414100BA3CD4 /* Model */,
 				23D40EF4259240FA00BA3CD4 /* ViewModel */,
 			);
@@ -165,6 +206,7 @@
 			children = (
 				23B142312591EF4F007B2F07 /* NSObject+Rx.swift */,
 				23602F37259258910051CDEE /* PublishRelayWrap.swift */,
+				23602F5C2592E4ED0051CDEE /* UITableViewExtensions.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -209,12 +251,12 @@
 		23DCD24F2591D4C6009FE7A6 /* GitHubApiList */ = {
 			isa = PBXGroup;
 			children = (
+				23602F4B2592E1900051CDEE /* DataSourceAdapter */,
 				23B1422E2591EF4F007B2F07 /* ApiList */,
 				23B1422B2591EF4F007B2F07 /* Defines */,
 				23B142302591EF4F007B2F07 /* Tools */,
 				23DCD2502591D4C6009FE7A6 /* AppDelegate.swift */,
 				23DCD2522591D4C6009FE7A6 /* SceneDelegate.swift */,
-				23DCD2542591D4C6009FE7A6 /* ViewController.swift */,
 				23DCD2562591D4C6009FE7A6 /* Main.storyboard */,
 				23DCD2592591D4C7009FE7A6 /* Assets.xcassets */,
 				23DCD25B2591D4C7009FE7A6 /* LaunchScreen.storyboard */,
@@ -432,15 +474,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A715712592F198009F40B1 /* DataSourceCellType.swift in Sources */,
 				23602F27259246AC0051CDEE /* ApiListCellVM.swift in Sources */,
 				23B142332591EF4F007B2F07 /* DispatchQueueDefines.swift in Sources */,
-				23DCD2552591D4C6009FE7A6 /* ViewController.swift in Sources */,
+				23DCD2552591D4C6009FE7A6 /* ApiListVC.swift in Sources */,
+				23602F472592DD800051CDEE /* DataSourceAdapter.swift in Sources */,
+				23602F582592E3010051CDEE /* DataSourceSectionType.swift in Sources */,
 				23602F38259258910051CDEE /* PublishRelayWrap.swift in Sources */,
 				23DCD2512591D4C6009FE7A6 /* AppDelegate.swift in Sources */,
+				23602F5D2592E4ED0051CDEE /* UITableViewExtensions.swift in Sources */,
 				23B142342591EF4F007B2F07 /* ApiListVM.swift in Sources */,
+				23602F4D2592E1E80051CDEE /* DataSourceCellVMType.swift in Sources */,
 				23D40EF72592416900BA3CD4 /* ApiInfoModel.swift in Sources */,
 				23DCD2532591D4C6009FE7A6 /* SceneDelegate.swift in Sources */,
 				23B142322591EF4F007B2F07 /* HttpApiDefines.swift in Sources */,
+				23A7156C2592F129009F40B1 /* ApiListCell.swift in Sources */,
 				23B142352591EF4F007B2F07 /* NSObject+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

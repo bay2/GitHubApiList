@@ -5,7 +5,8 @@
 //  Created by Sim Tsai on 2020/12/22.
 //
 
-import Foundation
+import UIKit
+import RxDataSources
 
 struct ApiListCellVM {
     var title: String
@@ -18,4 +19,14 @@ extension ApiListCellVM: Equatable {
         lhs.title == rhs.title && lhs.subTitle == rhs.subTitle
     }
     
+}
+
+extension ApiListCellVM: DataSourceCellVMType {
+    
+    var cellType: UITableViewCell.Type { ApiListCell.self }
+    
+}
+
+extension ApiListCellVM: IdentifiableType {
+    var identity: String { title }
 }
