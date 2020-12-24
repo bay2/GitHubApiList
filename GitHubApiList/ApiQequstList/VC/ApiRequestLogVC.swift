@@ -6,27 +6,30 @@
 //
 
 import UIKit
+import RxSwift
 
 class ApiRequestLogVC: UIViewController {
     
     @IBOutlet private weak var list: UITableView!
     
     let apiRequestLogVM = ApiRequestLogVM()
-    var dataSourceAdapter: DataSourceAdapter<DataSourceSection<ApiRequestCellVM>>!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dataSourceAdapter = DataSourceAdapter<DataSourceSection<ApiRequestCellVM>>(self, dataSources: apiRequestLogVM.$dataSources.observed)
-        
+        setupDataSourceAdapter()
         apiRequestLogVM.setup()
         
     }
 
 }
 
-extension ApiRequestLogVC: DataSourceAdapterDelegate {
+extension ApiRequestLogVC: DataSourceAdapterable {
+    
+    var disposeBag: DisposeBag { self.rx.disposeBag }
     
     var tableView: UITableView { list }
+    
+    var dataSources: PublishRelayWrap<[DataSourceSection<ApiRequestCellVM>]> { apiRequestLogVM.$dataSources }
     
 }

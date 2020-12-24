@@ -15,15 +15,12 @@ class ApiListVC: UIViewController {
     
     @IBOutlet private weak var list: UITableView!
     
-    
     let apiListVM = ApiListVM()
-    var dataSourceAdapter: DataSourceAdapter<DataSourceSection<ApiListCellVM>>!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dataSourceAdapter = DataSourceAdapter<DataSourceSection<ApiListCellVM>>(self, dataSources: apiListVM.$dataSources.observed)
+        setupDataSourceAdapter()
         
         apiListVM.setup()
         
@@ -31,9 +28,13 @@ class ApiListVC: UIViewController {
 
 }
 
-extension ApiListVC: DataSourceAdapterDelegate {
+extension ApiListVC: DataSourceAdapterable {
+    
+    var disposeBag: DisposeBag { self.rx.disposeBag }
     
     var tableView: UITableView { list }
+    
+    var dataSources: PublishRelayWrap<[DataSourceSection<ApiListCellVM>]> { apiListVM.$dataSources }
     
     
 }
