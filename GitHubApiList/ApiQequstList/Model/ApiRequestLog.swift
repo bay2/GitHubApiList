@@ -77,14 +77,18 @@ extension ApiRequestLog {
     }
     
     /// 清除数据
-    class func clearData() {
+    class func clearData(queue: DispatchQueue = .realmWirteQ) {
         
-        if let realm = try? Realm() {
+        queue.async {
             
-            realm.refresh()
-            
-            try? realm.write {
-                realm.delete(realm.objects(ApiRequestLog.self))
+            if let realm = try? Realm(queue: .realmWirteQ) {
+                
+                realm.refresh()
+                
+                try? realm.write {
+                    realm.delete(realm.objects(ApiRequestLog.self))
+                }
+                
             }
             
         }

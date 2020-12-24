@@ -21,7 +21,7 @@ class ApiRequestLogVM {
     
     func setup() {
         
-        if let records = ApiRequestCellVM.getQeuestRecord() {
+        if let records = ApiRequestLog.getQeuestRecord() {
             
             
             dataSources = [DataSourceSection(items: records.toArray(), sectionName: "ApiRequestLog")]
@@ -33,6 +33,16 @@ class ApiRequestLogVM {
                 .disposed(by: disposeBag)
             
         }
+        
+    }
+    
+    func clearRecords() {
+        
+        
+        dataSources = [DataSourceSection(items: [], sectionName: "ApiRequestLog")]
+        
+        ApiRequestLog.clearData()
+        
         
     }
     

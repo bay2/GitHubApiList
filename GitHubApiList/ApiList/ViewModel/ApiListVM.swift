@@ -41,7 +41,7 @@ class ApiListVM {
     func timerFetchDataFromRemote() -> Observable<[ApiListCellVM]> {
         
         Observable<Int>
-            .timer(.never, period: .seconds(5), scheduler: SerialDispatchQueueScheduler.networkingRequestQ)
+            .timer(.seconds(5), period: .seconds(5), scheduler: SerialDispatchQueueScheduler.networkingRequestQ)
             .flatMap { [weak self] (_) -> Observable<[ApiListCellVM]> in
                 guard let `self` = self else { return Observable.empty() }
                 return self.fetchDataFromRemote()

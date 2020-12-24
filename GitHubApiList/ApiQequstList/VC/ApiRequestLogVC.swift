@@ -21,6 +21,12 @@ class ApiRequestLogVC: UIViewController {
         apiRequestLogVM.setup()
         
     }
+    
+    @IBAction private func clear(_ sender: Any) {
+        
+        apiRequestLogVM.clearRecords()
+    }
+    
 
 }
 

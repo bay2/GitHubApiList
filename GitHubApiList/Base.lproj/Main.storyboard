@@ -152,7 +152,13 @@
                             <constraint firstItem="RZk-Pk-21Y" firstAttribute="trailing" secondItem="i8o-el-vpr" secondAttribute="trailing" id="vJo-ej-MtF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="API History" id="qAQ-b1-Ajw"/>
+                    <navigationItem key="navigationItem" title="API History" id="qAQ-b1-Ajw">
+                        <barButtonItem key="rightBarButtonItem" title="Clear" id="T2C-1x-Dk5">
+                            <connections>
+                                <action selector="clear:" destination="uyw-3x-R3D" id="cEn-BI-F2Y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="list" destination="i8o-el-vpr" id="d7K-vJ-B0e"/>
                     </connections>
